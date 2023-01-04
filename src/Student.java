@@ -1,3 +1,6 @@
+import Utils.ConsoleColor;
+import Utils.Utilities;
+
 import java.util.Random;
 
 public class Student extends Thread{
@@ -47,6 +50,7 @@ public class Student extends Thread{
             }
         }
 
-        System.out.printf(ConsoleColor.GREEN + "Student %s finished printing documents.\n" + ConsoleColor.RESET, this.getName());
+        Utilities.printLogs(Utilities.ProcessLogger.STUDENT, this.getName() + " Finished printing : " + numberOfDocumentsPerStudent, Utilities.ProcessLogger.INFO);
+        //System.out.printf(ConsoleColor.GREEN + "Student %s finished printing documents.\n" + ConsoleColor.RESET, this.getName());
     }
 }

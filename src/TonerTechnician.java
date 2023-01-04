@@ -14,8 +14,7 @@ public class TonerTechnician extends Thread{
         int numberOfRefills = 3;
 
         for (int i = 1; i <= numberOfRefills; i++) {
-            // System.out.printf("Toner Technician %s is attempting to replace toner cartridge no. %d\n", name, i);
-            printer.replaceTonerCartridge();
+           // printer.replaceTonerCartridge();
 
             // Excerpt from spec
             // Paper Technician's behaviour is to ... He/she should "sleep" for a random amount of time between each attempt to refill the paper...
@@ -25,6 +24,7 @@ public class TonerTechnician extends Thread{
             int sleepingTime = MINIMUM_SLEEPING_TIME + random.nextInt(MAXIMUM_SLEEPING_TIME - MINIMUM_SLEEPING_TIME);
             // int sleepingTime = 5000;
             try {
+                printer.replaceTonerCartridge();
                 Thread.sleep(sleepingTime);
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -34,6 +34,6 @@ public class TonerTechnician extends Thread{
             }
         }
 
-        System.out.printf("Toner Technician %s finished attempts to replace toner cartridges.\n", getName());
+        System.out.printf("Toner Technician Finished, cartridges replaced %s.\n", LaserPrinter.cartridgesReplacedCount);
     }
 }

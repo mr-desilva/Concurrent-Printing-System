@@ -33,6 +33,6 @@ public class PaperTechnician extends Thread {
             }
         }
 
-        System.out.printf("Paper Technician %s finished attempts to refill printer with paper packs.\n", getName());
+        System.out.printf("Paper Technician Finished, packs of paper used %s.\n", LaserPrinter.paperPackReplacedCount);
     }
 }

@@ -1,0 +1,463 @@
+[2023-01-04 23:05:31.471]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:31.503]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:31.504]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:31.505]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 2.
+[2023-01-04 23:05:31.506]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:32.673]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:34.282]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:34.471]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:34.690]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:35.615]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:36.294]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:36.383]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:38.284]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:39.318]  [PRINTER]  [WARN]  Out of paper. Current Paper Level is 2.
+[2023-01-04 23:05:39.791]  [PRINTER]  [WARN]  Out of paper. Current Paper Level is 2.
+[2023-01-04 23:05:44.545]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:05:44.548]  [PRINTER]  [WARN]  Out of paper. Current Paper Level is 1.
+[2023-01-04 23:05:44.549]  [PRINTER]  [WARN]  Out of paper. Current Paper Level is 1.
+[2023-01-04 23:05:46.319]  [PRINTER]  [WARN]  Out of paper. Current Paper Level is 1.
+[2023-01-04 23:06:16.766]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:16.799]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:16.800]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 4.
+[2023-01-04 23:06:16.800]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 4.
+[2023-01-04 23:06:18.509]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 4.
+[2023-01-04 23:06:18.510]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 4.
+[2023-01-04 23:06:19.057]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:19.060]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:19.968]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:21.146]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:21.275]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:22.162]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:23.332]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:23.603]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:23.848]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:24.832]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:25.594]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:27.340]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:28.627]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:28.769]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:30.137]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:30.302]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:30.390]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:06:31.559]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:07:04.793]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:07:04.820]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 7.
+[2023-01-04 23:07:04.821]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:07:04.822]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 2.
+[2023-01-04 23:07:04.823]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:07:04.824]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:07:07.126]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:07:07.805]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:07:08.105]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:07:09.023]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:10.700]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:10.729]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:10.731]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:08:10.732]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:08:12.721]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:08:13.242]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:08:13.243]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:08:13.245]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:08:14.403]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:14.407]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:14.409]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:15.055]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:15.866]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:17.216]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:18.647]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:18.754]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:19.029]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:20.222]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:20.739]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:21.515]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:22.155]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:22.435]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:23.103]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:24.716]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:25.843]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:08:28.691]  [PRINTER]  [INFO]  Printing document with page length.
+[2023-01-04 23:13:07.749]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:13:07.780]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 53 and Toner Level is 3.
+[2023-01-04 23:13:07.781]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 3.
+[2023-01-04 23:13:07.782]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 3.
+[2023-01-04 23:13:07.782]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 3.
+[2023-01-04 23:13:10.792]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 3.
+[2023-01-04 23:13:10.793]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 3.
+[2023-01-04 23:13:10.795]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 3.
+[2023-01-04 23:13:10.917]  [PRINTER]  [INFO]  Printing document with page length 9.
+[2023-01-04 23:13:10.919]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 94 and Toner Level is 494.
+[2023-01-04 23:13:10.920]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:13:10.922]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 87 and Toner Level is 487.
+[2023-01-04 23:13:10.923]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:13:10.925]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 82 and Toner Level is 482.
+[2023-01-04 23:13:11.241]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:13:11.243]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 81 and Toner Level is 481.
+[2023-01-04 23:13:13.359]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:13:13.360]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 78 and Toner Level is 478.
+[2023-01-04 23:13:15.615]  [PRINTER]  [INFO]  Printing document with page length 2.
+[2023-01-04 23:13:15.616]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 76 and Toner Level is 476.
+[2023-01-04 23:13:15.761]  [PRINTER]  [INFO]  Printing document with page length 8.
+[2023-01-04 23:13:15.762]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 68 and Toner Level is 468.
+[2023-01-04 23:13:15.904]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:13:15.906]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 67 and Toner Level is 467.
+[2023-01-04 23:13:16.570]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:13:16.571]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 60 and Toner Level is 460.
+[2023-01-04 23:13:17.305]  [PRINTER]  [INFO]  Printing document with page length 9.
+[2023-01-04 23:13:17.307]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 51 and Toner Level is 451.
+[2023-01-04 23:13:19.021]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:13:19.023]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 46 and Toner Level is 446.
+[2023-01-04 23:13:19.372]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:13:19.373]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 41 and Toner Level is 441.
+[2023-01-04 23:13:20.495]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:13:20.496]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 36 and Toner Level is 436.
+[2023-01-04 23:13:20.504]  [PRINTER]  [INFO]  Printing document with page length 4.
+[2023-01-04 23:13:20.505]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 32 and Toner Level is 432.
+[2023-01-04 23:13:22.470]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:13:22.472]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 31 and Toner Level is 431.
+[2023-01-04 23:13:23.346]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:13:23.347]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 30 and Toner Level is 430.
+[2023-01-04 23:13:23.900]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:13:23.901]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 27 and Toner Level is 427.
+[2023-01-04 23:13:24.418]  [PRINTER]  [INFO]  Printing document with page length 8.
+[2023-01-04 23:13:24.418]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 19 and Toner Level is 419.
+[2023-01-04 23:13:25.910]  [PRINTER]  [INFO]  Printing document with page length 8.
+[2023-01-04 23:13:25.911]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 11 and Toner Level is 411.
+[2023-01-04 23:18:22.130]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:18:22.161]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 60.
+[2023-01-04 23:18:22.162]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:18:22.163]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 54 and Toner Level is 4.
+[2023-01-04 23:18:22.164]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 4.
+[2023-01-04 23:18:22.164]  [PRINTER]  [INFO]  Printing document with page length 2.
+[2023-01-04 23:18:22.165]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 52 and Toner Level is 2.
+[2023-01-04 23:18:22.165]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 2.
+[2023-01-04 23:18:22.166]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:18:22.167]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 45 and Toner Level is 495.
+[2023-01-04 23:18:22.167]  [PRINTER]  [INFO]  Printing document with page length 9.
+[2023-01-04 23:18:22.168]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 36 and Toner Level is 486.
+[2023-01-04 23:18:23.299]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:18:23.300]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 86.
+[2023-01-04 23:18:24.134]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:18:24.135]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 79 and Toner Level is 479.
+[2023-01-04 23:18:24.409]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:18:24.410]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 73 and Toner Level is 473.
+[2023-01-04 23:18:26.226]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:18:26.228]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 66 and Toner Level is 466.
+[2023-01-04 23:18:26.888]  [PRINTER]  [INFO]  Printing document with page length 4.
+[2023-01-04 23:18:26.890]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 62 and Toner Level is 462.
+[2023-01-04 23:18:27.312]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:18:27.313]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 56 and Toner Level is 456.
+[2023-01-04 23:18:28.965]  [PRINTER]  [INFO]  Printing document with page length 8.
+[2023-01-04 23:18:28.966]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 48 and Toner Level is 448.
+[2023-01-04 23:18:29.133]  [PRINTER]  [INFO]  Printing document with page length 9.
+[2023-01-04 23:18:29.135]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 39 and Toner Level is 439.
+[2023-01-04 23:18:29.854]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:18:29.856]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 36 and Toner Level is 436.
+[2023-01-04 23:18:30.180]  [PRINTER]  [INFO]  Printing document with page length 8.
+[2023-01-04 23:18:30.181]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 28 and Toner Level is 428.
+[2023-01-04 23:18:31.275]  [PRINTER]  [INFO]  Printing document with page length 8.
+[2023-01-04 23:18:31.276]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 20 and Toner Level is 420.
+[2023-01-04 23:18:32.201]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:18:32.202]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 17 and Toner Level is 417.
+[2023-01-04 23:18:32.459]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:18:32.460]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 10 and Toner Level is 410.
+[2023-01-04 23:18:32.896]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:18:32.898]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 9 and Toner Level is 409.
+[2023-01-04 23:18:34.932]  [PRINTER]  [INFO]  Printing document with page length 2.
+[2023-01-04 23:18:34.933]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 7 and Toner Level is 407.
+[2023-01-04 23:18:35.852]  [PRINTER]  [WARN]  Out of paper. Current Paper Level is 7.
+[2023-01-04 23:18:36.230]  [PRINTER]  [INFO]  Printing document with page length 2.
+[2023-01-04 23:18:36.232]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 5 and Toner Level is 405.
+[2023-01-04 23:18:36.234]  [PRINTER]  [WARN]  Out of paper. Current Paper Level is 5.
+[2023-01-04 23:20:54.438]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:20:54.471]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 60.
+[2023-01-04 23:20:54.472]  [PRINTER]  [INFO]  Printing document with page length 8.
+[2023-01-04 23:20:54.473]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 52 and Toner Level is 2.
+[2023-01-04 23:20:54.474]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 2.
+[2023-01-04 23:20:54.475]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 2.
+[2023-01-04 23:20:55.668]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:20:55.669]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 51 and Toner Level is 1.
+[2023-01-04 23:20:55.671]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:20:55.673]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:20:57.083]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:20:57.085]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 48 and Toner Level is 498.
+[2023-01-04 23:20:57.087]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:20:57.088]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 42 and Toner Level is 492.
+[2023-01-04 23:20:57.788]  [PRINTER]  [INFO]  Printing document with page length 8.
+[2023-01-04 23:20:57.789]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 34 and Toner Level is 484.
+[2023-01-04 23:20:59.382]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:20:59.384]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 33 and Toner Level is 483.
+[2023-01-04 23:21:01.142]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:21:01.144]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 27 and Toner Level is 477.
+[2023-01-04 23:21:01.339]  [PRINTER]  [INFO]  Printing document with page length 9.
+[2023-01-04 23:21:01.340]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 18 and Toner Level is 468.
+[2023-01-04 23:21:01.593]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:21:01.594]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 17 and Toner Level is 467.
+[2023-01-04 23:21:01.725]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:21:01.726]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 10 and Toner Level is 460.
+[2023-01-04 23:21:04.094]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:21:04.096]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 7 and Toner Level is 457.
+[2023-01-04 23:21:04.962]  [PRINTER]  [WARN]  Out of paper. Current Paper Level is 7.
+[2023-01-04 23:21:06.580]  [PRINTER]  [INFO]  Printing document with page length 4.
+[2023-01-04 23:21:06.581]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 3 and Toner Level is 453.
+[2023-01-04 23:21:06.583]  [PRINTER]  [WARN]  Out of paper. Current Paper Level is 3.
+[2023-01-04 23:21:10.471]  [PRINTER]  [WARN]  Out of paper. Current Paper Level is 3.
+[2023-01-04 23:21:49.956]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:21:49.989]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 90.
+[2023-01-04 23:21:49.990]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:21:49.990]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 87 and Toner Level is 7.
+[2023-01-04 23:21:49.991]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:21:49.991]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 84 and Toner Level is 4.
+[2023-01-04 23:21:49.992]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:21:49.993]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 81 and Toner Level is 1.
+[2023-01-04 23:21:49.993]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:21:52.473]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:21:52.568]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:21:54.068]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:21:54.522]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:21:54.523]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 131.
+[2023-01-04 23:21:54.525]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:21:54.527]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:21:54.529]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:21:54.530]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:21:54.798]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:21:54.800]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 124 and Toner Level is 494.
+[2023-01-04 23:21:54.802]  [PRINTER]  [INFO]  Printing document with page length 9.
+[2023-01-04 23:21:54.803]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 115 and Toner Level is 485.
+[2023-01-04 23:21:54.805]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:21:54.806]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 109 and Toner Level is 479.
+[2023-01-04 23:21:54.808]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:21:54.809]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 103 and Toner Level is 473.
+[2023-01-04 23:21:56.721]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:21:56.722]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 153.
+[2023-01-04 23:21:57.300]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:21:57.302]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 150 and Toner Level is 470.
+[2023-01-04 23:21:57.820]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:21:57.822]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 144 and Toner Level is 464.
+[2023-01-04 23:21:58.052]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:21:58.053]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 141 and Toner Level is 461.
+[2023-01-04 23:21:59.018]  [PRINTER]  [INFO]  Printing document with page length 2.
+[2023-01-04 23:21:59.019]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 139 and Toner Level is 459.
+[2023-01-04 23:22:01.042]  [PRINTER]  [INFO]  Printing document with page length 2.
+[2023-01-04 23:22:01.043]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 137 and Toner Level is 457.
+[2023-01-04 23:22:01.612]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:22:01.614]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 132 and Toner Level is 452.
+[2023-01-04 23:22:02.202]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:22:02.204]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 126 and Toner Level is 446.
+[2023-01-04 23:22:02.675]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:22:02.676]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 123 and Toner Level is 443.
+[2023-01-04 23:22:03.344]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:22:03.345]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 122 and Toner Level is 442.
+[2023-01-04 23:22:04.634]  [PRINTER]  [INFO]  Printing document with page length 4.
+[2023-01-04 23:22:04.635]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 118 and Toner Level is 438.
+[2023-01-04 23:22:04.674]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:22:04.675]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 112 and Toner Level is 432.
+[2023-01-04 23:22:04.876]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:22:04.878]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 106 and Toner Level is 426.
+[2023-01-04 23:22:09.512]  [PRINTER]  [INFO]  Printing document with page length 4.
+[2023-01-04 23:22:09.513]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 102 and Toner Level is 422.
+[2023-01-04 23:27:12.294]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:27:12.325]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 90.
+[2023-01-04 23:27:12.326]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:27:12.326]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 85 and Toner Level is 5.
+[2023-01-04 23:27:12.327]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:27:12.327]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 82 and Toner Level is 2.
+[2023-01-04 23:27:12.328]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 2.
+[2023-01-04 23:27:12.329]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 2.
+[2023-01-04 23:27:12.329]  [TONER TECHNICIAN]  [WARN]  toner is low, current toner level is 2.
+[2023-01-04 23:27:12.330]  [TONER TECHNICIAN]  [INFO]  toner is replaced, new toner level is 502.
+[2023-01-04 23:27:12.330]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:27:12.331]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 79 and Toner Level is 499.
+[2023-01-04 23:27:12.331]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:27:12.332]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 76 and Toner Level is 496.
+[2023-01-04 23:27:14.876]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:27:14.877]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 70 and Toner Level is 490.
+[2023-01-04 23:27:15.124]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:27:15.126]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 120.
+[2023-01-04 23:27:15.453]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 490.
+[2023-01-04 23:27:15.575]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:27:15.575]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 114 and Toner Level is 484.
+[2023-01-04 23:27:15.576]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 484.
+[2023-01-04 23:27:15.902]  [PRINTER]  [INFO]  Printing document with page length 2.
+[2023-01-04 23:27:15.903]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 112 and Toner Level is 482.
+[2023-01-04 23:27:15.905]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 482.
+[2023-01-04 23:27:16.047]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:27:16.048]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 107 and Toner Level is 477.
+[2023-01-04 23:27:16.050]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 477.
+[2023-01-04 23:27:17.276]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:27:17.277]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 100 and Toner Level is 470.
+[2023-01-04 23:27:17.279]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 470.
+[2023-01-04 23:27:18.368]  [PRINTER]  [INFO]  Printing document with page length 9.
+[2023-01-04 23:27:18.370]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 91 and Toner Level is 461.
+[2023-01-04 23:27:18.371]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 461.
+[2023-01-04 23:27:18.583]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:27:18.584]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 90 and Toner Level is 460.
+[2023-01-04 23:27:18.586]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 460.
+[2023-01-04 23:27:18.936]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:27:18.937]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 89 and Toner Level is 459.
+[2023-01-04 23:27:18.939]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 459.
+[2023-01-04 23:27:19.918]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:27:19.919]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 82 and Toner Level is 452.
+[2023-01-04 23:27:19.921]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 452.
+[2023-01-04 23:27:22.463]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:27:22.464]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 77 and Toner Level is 447.
+[2023-01-04 23:27:22.466]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 447.
+[2023-01-04 23:27:22.608]  [PRINTER]  [INFO]  Printing document with page length 8.
+[2023-01-04 23:27:22.609]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 69 and Toner Level is 439.
+[2023-01-04 23:27:22.611]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 439.
+[2023-01-04 23:27:22.803]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:27:22.804]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 64 and Toner Level is 434.
+[2023-01-04 23:27:22.806]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 434.
+[2023-01-04 23:27:23.937]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:27:23.938]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 59 and Toner Level is 429.
+[2023-01-04 23:27:23.950]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 429.
+[2023-01-04 23:27:24.278]  [PRINTER]  [INFO]  Printing document with page length 9.
+[2023-01-04 23:27:24.279]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 50 and Toner Level is 420.
+[2023-01-04 23:27:24.281]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 420.
+[2023-01-04 23:27:26.037]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:27:26.039]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 44 and Toner Level is 414.
+[2023-01-04 23:27:26.040]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 414.
+[2023-01-04 23:27:26.996]  [PRINTER]  [INFO]  Printing document with page length 4.
+[2023-01-04 23:27:26.997]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 40 and Toner Level is 410.
+[2023-01-04 23:27:26.999]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 410.
+[2023-01-04 23:27:32.003]  [PRINTER]  [INFO]  No requests for printing Documents.....
+[2023-01-04 23:27:32.004]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:27:32.006]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 90.
+[2023-01-04 23:27:36.627]  [PRINTER]  [INFO]  No requests for printing Documents.....
+[2023-01-04 23:44:12.370]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:44:12.398]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 90.
+[2023-01-04 23:44:12.399]  [PRINTER]  [INFO]  Printing document with page length 4.
+[2023-01-04 23:44:12.400]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 86 and Toner Level is 6.
+[2023-01-04 23:44:12.401]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:44:12.401]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 81 and Toner Level is 1.
+[2023-01-04 23:44:12.402]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 1.
+[2023-01-04 23:44:12.402]  [TONER TECHNICIAN]  [WARN]  toner is low, current toner level is 1.
+[2023-01-04 23:44:12.403]  [TONER TECHNICIAN]  [INFO]  toner is replaced, new toner level is 501.
+[2023-01-04 23:44:12.404]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:44:12.404]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 74 and Toner Level is 494.
+[2023-01-04 23:44:13.563]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:44:13.564]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 68 and Toner Level is 488.
+[2023-01-04 23:44:14.581]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:44:14.582]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 118.
+[2023-01-04 23:44:15.302]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:44:15.304]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 112 and Toner Level is 482.
+[2023-01-04 23:44:15.941]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 482.
+[2023-01-04 23:44:16.233]  [PRINTER]  [INFO]  Printing document with page length 4.
+[2023-01-04 23:44:16.235]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 108 and Toner Level is 478.
+[2023-01-04 23:44:16.236]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 478.
+[2023-01-04 23:44:17.235]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:44:17.236]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 107 and Toner Level is 477.
+[2023-01-04 23:44:17.238]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 477.
+[2023-01-04 23:44:18.300]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:44:18.302]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 102 and Toner Level is 472.
+[2023-01-04 23:44:18.303]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 472.
+[2023-01-04 23:44:18.344]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:44:18.345]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 95 and Toner Level is 465.
+[2023-01-04 23:44:18.347]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 465.
+[2023-01-04 23:44:18.468]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:44:18.469]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 89 and Toner Level is 459.
+[2023-01-04 23:44:18.471]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 459.
+[2023-01-04 23:44:18.607]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:44:18.608]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 88 and Toner Level is 458.
+[2023-01-04 23:44:18.610]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 458.
+[2023-01-04 23:44:19.629]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:44:19.630]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 85 and Toner Level is 455.
+[2023-01-04 23:44:19.632]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 455.
+[2023-01-04 23:44:22.321]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:44:22.322]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 80 and Toner Level is 450.
+[2023-01-04 23:44:22.324]  [STUDENT]  [INFO]  Nathindu Finished printing : 5.
+[2023-01-04 23:44:22.325]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 450.
+[2023-01-04 23:44:22.437]  [PRINTER]  [INFO]  Printing document with page length 8.
+[2023-01-04 23:44:22.438]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 72 and Toner Level is 442.
+[2023-01-04 23:44:22.440]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 442.
+[2023-01-04 23:44:22.965]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:44:22.967]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 66 and Toner Level is 436.
+[2023-01-04 23:44:22.968]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 436.
+[2023-01-04 23:44:23.148]  [PRINTER]  [INFO]  Printing document with page length 9.
+[2023-01-04 23:44:23.150]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 57 and Toner Level is 427.
+[2023-01-04 23:44:23.152]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 427.
+[2023-01-04 23:44:24.277]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:44:24.279]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 52 and Toner Level is 422.
+[2023-01-04 23:44:24.293]  [STUDENT]  [INFO]  Sanjula Finished printing : 5.
+[2023-01-04 23:44:24.295]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 422.
+[2023-01-04 23:44:24.381]  [PRINTER]  [INFO]  Printing document with page length 9.
+[2023-01-04 23:44:24.383]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 43 and Toner Level is 413.
+[2023-01-04 23:44:24.384]  [STUDENT]  [INFO]  Tharindu Finished printing : 5.
+[2023-01-04 23:44:24.386]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 413.
+[2023-01-04 23:44:24.887]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:44:24.889]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 36 and Toner Level is 406.
+[2023-01-04 23:44:24.891]  [STUDENT]  [INFO]  Adeesha Finished printing : 5.
+[2023-01-04 23:44:24.892]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 406.
+[2023-01-04 23:44:29.896]  [PRINTER]  [INFO]  No requests for printing Documents.....
+[2023-01-04 23:44:29.897]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:44:29.899]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 86.
+[2023-01-04 23:44:31.258]  [PRINTER]  [INFO]  No requests for printing Documents.....
+[2023-01-04 23:45:32.920]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:45:32.949]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 90.
+[2023-01-04 23:45:32.950]  [PRINTER]  [INFO]  Printing document with page length 2.
+[2023-01-04 23:45:32.951]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 88 and Toner Level is 8.
+[2023-01-04 23:45:32.951]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:45:32.952]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 85 and Toner Level is 5.
+[2023-01-04 23:45:32.952]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 5.
+[2023-01-04 23:45:32.953]  [PRINTER]  [WARN]  Out of toner. Current Toner Level is 5.
+[2023-01-04 23:45:32.953]  [TONER TECHNICIAN]  [WARN]  toner is low, current toner level is 5.
+[2023-01-04 23:45:32.954]  [TONER TECHNICIAN]  [INFO]  toner is replaced, new toner level is 505.
+[2023-01-04 23:45:32.954]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:45:32.955]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 79 and Toner Level is 499.
+[2023-01-04 23:45:32.955]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:45:32.956]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 72 and Toner Level is 492.
+[2023-01-04 23:45:34.778]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:45:34.780]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 66 and Toner Level is 486.
+[2023-01-04 23:45:36.217]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:45:36.218]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 116.
+[2023-01-04 23:45:36.272]  [PRINTER]  [INFO]  Printing document with page length 8.
+[2023-01-04 23:45:36.274]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 108 and Toner Level is 478.
+[2023-01-04 23:45:36.347]  [PRINTER]  [INFO]  Printing document with page length 2.
+[2023-01-04 23:45:36.348]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 106 and Toner Level is 476.
+[2023-01-04 23:45:37.120]  [PRINTER]  [INFO]  Printing document with page length 6.
+[2023-01-04 23:45:37.121]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 100 and Toner Level is 470.
+[2023-01-04 23:45:37.213]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 470.
+[2023-01-04 23:45:38.158]  [PRINTER]  [INFO]  Printing document with page length 4.
+[2023-01-04 23:45:38.159]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 96 and Toner Level is 466.
+[2023-01-04 23:45:38.161]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 466.
+[2023-01-04 23:45:39.608]  [PRINTER]  [INFO]  Printing document with page length 4.
+[2023-01-04 23:45:39.610]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 92 and Toner Level is 462.
+[2023-01-04 23:45:39.611]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 462.
+[2023-01-04 23:45:39.670]  [PRINTER]  [INFO]  Printing document with page length 1.
+[2023-01-04 23:45:39.671]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 91 and Toner Level is 461.
+[2023-01-04 23:45:39.673]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 461.
+[2023-01-04 23:45:40.728]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:45:40.729]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 88 and Toner Level is 458.
+[2023-01-04 23:45:40.731]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 458.
+[2023-01-04 23:45:40.845]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:45:40.845]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 85 and Toner Level is 455.
+[2023-01-04 23:45:40.847]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 455.
+[2023-01-04 23:45:41.115]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:45:41.116]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 80 and Toner Level is 450.
+[2023-01-04 23:45:41.118]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 450.
+[2023-01-04 23:45:43.394]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:45:43.395]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 77 and Toner Level is 447.
+[2023-01-04 23:45:43.397]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 447.
+[2023-01-04 23:45:43.409]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:45:43.410]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 72 and Toner Level is 442.
+[2023-01-04 23:45:43.412]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 442.
+[2023-01-04 23:45:43.661]  [PRINTER]  [INFO]  Printing document with page length 3.
+[2023-01-04 23:45:43.662]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 69 and Toner Level is 439.
+[2023-01-04 23:45:43.664]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 439.
+[2023-01-04 23:45:43.665]  [STUDENT]  [INFO]  Nathindu Finished printing : 5.
+[2023-01-04 23:45:43.716]  [PRINTER]  [INFO]  Printing document with page length 2.
+[2023-01-04 23:45:43.729]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 67 and Toner Level is 437.
+[2023-01-04 23:45:43.730]  [STUDENT]  [INFO]  Sanjula Finished printing : 5.
+[2023-01-04 23:45:43.732]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 437.
+[2023-01-04 23:45:47.349]  [PRINTER]  [INFO]  Printing document with page length 5.
+[2023-01-04 23:45:47.351]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 62 and Toner Level is 432.
+[2023-01-04 23:45:47.352]  [STUDENT]  [INFO]  Adeesha Finished printing : 5.
+[2023-01-04 23:45:47.353]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 432.
+[2023-01-04 23:45:48.019]  [PRINTER]  [INFO]  Printing document with page length 7.
+[2023-01-04 23:45:48.021]  [PRINTER]  [INFO]  Successfully printed the document. New Paper Level is 55 and Toner Level is 425.
+[2023-01-04 23:45:48.022]  [STUDENT]  [INFO]  Tharindu Finished printing : 5.
+[2023-01-04 23:45:48.024]  [TONER TECHNICIAN]  [INFO]  Checking toner...No need to replace the toner, Current toner Level is 425.
+[2023-01-04 23:45:53.027]  [PRINTER]  [INFO]  No requests for printing Documents.....
+[2023-01-04 23:45:53.029]  [PAPER TECHNICIAN]  [INFO]  Checking paper... Refilling printer with paper... .
+[2023-01-04 23:45:53.030]  [PAPER TECHNICIAN]  [INFO]  Refilled tray with pack of paper. New Paper Level: 105.
+[2023-01-04 23:45:57.565]  [PRINTER]  [INFO]  No requests for printing Documents.....
