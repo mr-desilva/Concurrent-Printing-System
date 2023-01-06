@@ -19,16 +19,18 @@ public class Student extends Thread{
 
             int MINIMUM_NUMBER_OF_PAGE_PER_DOCUMENT = 1;
             int MAXIMUM_NUMBER_OF_PAGE_PER_DOCUMENT = 10;
-
+            // random number of pages per document, Adding 1 to ensure document is at least one page in length
             int numberOfPages = MINIMUM_NUMBER_OF_PAGE_PER_DOCUMENT +
-                    random.nextInt(MAXIMUM_NUMBER_OF_PAGE_PER_DOCUMENT - MINIMUM_NUMBER_OF_PAGE_PER_DOCUMENT); // Adding 1 to ensure document is at least one page in length
+                    random.nextInt(MAXIMUM_NUMBER_OF_PAGE_PER_DOCUMENT - MINIMUM_NUMBER_OF_PAGE_PER_DOCUMENT);
             String documentName = "cwk" + i;
 
 
             Document document = new Document(this.getName(), documentName, numberOfPages);
             printer.printDocument(document);
 
+            // After printing the final document no need to sleep the student thread
             boolean lastDocument = i == numberOfDocumentsPerStudent;
+            // Student should sleep for a random time between each attempt to print the documents.
             if (!lastDocument) {
                 int MINIMUM_SLEEPING_TIME = 1000;
                 int MAXIMUM_SLEEPING_TIME = 5000;

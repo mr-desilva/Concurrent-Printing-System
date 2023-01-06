@@ -16,7 +16,7 @@ public class LaserPrinter implements ServicePrinter{
     static int cartridgesReplacedCount;
 
     // reentrant Lock with fairness enabled
-    private Lock resourceLock = new ReentrantLock(true); //fairness Enabled
+    private Lock resourceLock = new ReentrantLock(true);
     private Condition printerCondition;
 
     public LaserPrinter(int id, int initialPaperLevel, int initialTonerLevel, ThreadGroup students) {
@@ -29,15 +29,23 @@ public class LaserPrinter implements ServicePrinter{
         this.printerCondition = resourceLock.newCondition();
     }
 
+    /*
+     * method to replace Toner cartridge of printer
+     * toner can only be replaced when current toner level goes below the minimum toner level
+     * when toner cartridge is replaced, toner level goes upto full toner level
+     */
     @Override
     public synchronized void replaceTonerCartridge() {
+        // block until condition holds
         this.resourceLock.lock();
 
         try {
             while (currentTonerLevel > Minimum_Toner_Level) {
+                // Check if printer has finished serving all the threads in students Thread Group
                 if(students.activeCount() > 0) {
                     Utilities.printLogs(Utilities.MessageOwner.TONER_TECHNICIAN, "Checking toner...No need to replace the toner, Current toner Level is "
                             + currentTonerLevel, Utilities.MessageType.INFO);
+                    // Setting thread to wait until 5 seconds
                     printerCondition.await(5, TimeUnit.SECONDS);
                 } else {
                     Utilities.printLogs(Utilities.MessageOwner.PRINTER, "No requests for printing Documents....", Utilities.MessageType.INFO);
@@ -52,26 +60,37 @@ public class LaserPrinter implements ServicePrinter{
                 cartridgesReplacedCount ++;
                 Utilities.printLogs(Utilities.MessageOwner.TONER_TECHNICIAN, "toner is replaced, new toner level is " + currentTonerLevel, Utilities.MessageType.INFO);
             }
+            //Wakes up all waiting threads.
             this.printerCondition.signalAll();
 
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
+            // Releasing the resource lock
             this.resourceLock.unlock();
         }
     }
 
+
+    /**
+     * method to refill paper tray of printer with paper
+     * paper tray can only be refilled if the new paper level does not exceed the full (maximum) paper level
+     * each paper refill increases the paper level by the number of papers in pack
+     */
     @Override
     public synchronized void refillPaper() {
+        // block until condition holds
         this.resourceLock.lock();
 
         try {
+            // Checking the refill can exceed the full paper level
             boolean printerCannotBeRefilled = (currentPaperLevel + SheetsPerPack) > Full_Paper_Tray;
             while (printerCannotBeRefilled) {
                 if(students.activeCount() > 0) {
                     Utilities.printLogs(Utilities.MessageOwner.PAPER_TECHNICIAN, "Checking paper...No need to refill the papers, Current Paper Level is "
                             + currentPaperLevel, Utilities.MessageType.INFO);
 
+                    // Setting thread to wait until 5 seconds
                     printerCondition.await(5, TimeUnit.SECONDS);
                 } else {
                     Utilities.printLogs(Utilities.MessageOwner.PRINTER, "No requests for printing Documents....", Utilities.MessageType.INFO);
@@ -85,17 +104,27 @@ public class LaserPrinter implements ServicePrinter{
                 this.paperPackReplacedCount ++;
                 Utilities.printLogs(Utilities.MessageOwner.PAPER_TECHNICIAN, "Refilled tray with pack of paper. New Paper Level: " + currentPaperLevel, Utilities.MessageType.INFO);
             }
+            //Wakes up all waiting threads.
             this.printerCondition.signalAll();
 
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
+            // Releasing the resource lock
             this.resourceLock.unlock();
         }
     }
 
+
+
+    /**
+     * method to print a documents
+     * a document can be printed if there are enough paper and toner resources
+     * printing a document reduces both the paper level and toner level by the number of pages in the document.
+     */
     @Override
     public void printDocument(Document document) {
+        // block until condition holds
         this.resourceLock.lock();
 
         try {
@@ -104,22 +133,25 @@ public class LaserPrinter implements ServicePrinter{
             int numberOfPages = document.getNumberOfPages();
 
             while (currentPaperLevel < numberOfPages || currentTonerLevel < numberOfPages) {
-                // User cannot print
+                // if both toner and paper level are low to print the number of pages
                 if(currentPaperLevel < numberOfPages && currentTonerLevel < numberOfPages) {
                     Utilities.printLogs(Utilities.MessageOwner.PRINTER, "Out of paper and toner. Current Paper Level is " + currentPaperLevel + " and Toner Level is " + currentTonerLevel, Utilities.MessageType.INFO);
                 }
+                // if the paper level is low
                 else if(currentPaperLevel < numberOfPages) {
                     Utilities.printLogs(Utilities.MessageOwner.PRINTER, "Out of paper. Current Paper Level is " + currentPaperLevel, Utilities.MessageType.WARN);
                 }
+                // if the toner level is low
                 else {
                     Utilities.printLogs(Utilities.MessageOwner.PRINTER, "Out of toner. Current Toner Level is " + currentTonerLevel, Utilities.MessageType.WARN);
                 }
-
+                // Setting thread to wait until its called again
                 printerCondition.await();
             }
 
+            // if the both paper and toner resources are enough to print the document
             if (currentPaperLevel > numberOfPages && currentTonerLevel > numberOfPages) {
-                Utilities.printLogs(Utilities.MessageOwner.PRINTER, "Printing document with page length " + numberOfPages, Utilities.MessageType.INFO);
+                Utilities.printLogs(Utilities.MessageOwner.PRINTER, student +  " is printing " + docName + " with page length " + numberOfPages, Utilities.MessageType.INFO);
                 currentPaperLevel -= numberOfPages;
                 currentTonerLevel -= numberOfPages;
                 numberOfDocumentsPrinted++;
@@ -136,6 +168,7 @@ public class LaserPrinter implements ServicePrinter{
 
     }
 
+    // Getting total number of printed pages
     public int getNumberOfPrintedPages() {
         return numberOfPrintedPages;
     }

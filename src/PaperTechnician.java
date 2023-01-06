@@ -18,8 +18,7 @@ public class PaperTechnician extends Thread {
         for (int i = 1; i <= numberOfRefills; i++) {
             printer.refillPaper();
 
-            // Excerpt from spec
-            // Paper Technician's behaviour is to ... He/she should "sleep" for a random amount of time between each attempt to refill the paper.
+            // Paper Technician's should sleep for a random time between each attempt to refill the paper.
             int MINIMUM_SLEEPING_TIME = 1000;
             int MAXIMUM_SLEEPING_TIME = 5000;
             int sleepingTime = MINIMUM_SLEEPING_TIME + random.nextInt(MAXIMUM_SLEEPING_TIME - MINIMUM_SLEEPING_TIME);
