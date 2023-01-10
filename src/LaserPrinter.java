@@ -35,7 +35,7 @@ public class LaserPrinter implements ServicePrinter{
      * when toner cartridge is replaced, toner level goes upto full toner level
      */
     @Override
-    public synchronized void replaceTonerCartridge() {
+    public void replaceTonerCartridge() {
         // block until condition holds
         this.resourceLock.lock();
 
@@ -78,7 +78,7 @@ public class LaserPrinter implements ServicePrinter{
      * each paper refill increases the paper level by the number of papers in pack
      */
     @Override
-    public synchronized void refillPaper() {
+    public void refillPaper() {
         // block until condition holds
         this.resourceLock.lock();
 

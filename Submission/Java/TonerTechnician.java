@@ -23,7 +23,7 @@ public class TonerTechnician extends Thread{
             int MAXIMUM_SLEEPING_TIME = 5000;
             int sleepingTime = MINIMUM_SLEEPING_TIME + random.nextInt(MAXIMUM_SLEEPING_TIME - MINIMUM_SLEEPING_TIME);
             try {
-                Thread.sleep(sleepingTime);
+                sleep(sleepingTime);
             } catch (InterruptedException e) {
                 e.printStackTrace();
                 Utilities.printLogs(Utilities.MessageOwner.TONER_TECHNICIAN, "Toner Technician was interrupted during sleeping time " + sleepingTime +

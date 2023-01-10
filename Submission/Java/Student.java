@@ -36,7 +36,7 @@ public class Student extends Thread{
                 int MAXIMUM_SLEEPING_TIME = 5000;
                 int sleepingTime = MINIMUM_SLEEPING_TIME + random.nextInt(MAXIMUM_SLEEPING_TIME - MINIMUM_SLEEPING_TIME);
                 try {
-                    Thread.sleep(sleepingTime);
+                    sleep(sleepingTime);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                     Utilities.printLogs(Utilities.MessageOwner.STUDENT, this.getName() + " was interrupted during sleeping time "
