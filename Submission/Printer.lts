@@ -1,0 +1,30 @@
+const MAX_PAPER_SHEETS = 3 //Maximum paper count for a printer
+const MIN_PAPER_SHEETS = 1 //Minimum paper count for a printer
+range PAPER_TRAY_RANGE = 0..MAX_PAPER_SHEETS  // Paper tray range
+const MIN_DOCUMENT = 1 //Minimum document count for a student
+
+set PRINTER_ACTIONS = { print, refill,release, acquirePrint, acquireRefill}
+
+//Printer
+PRINTER(PAPER_COUNT = MAX_PAPER_SHEETS) = PRINTER[PAPER_COUNT],
+PRINTER[a : PAPER_TRAY_RANGE] =  
+if(a >= MIN_PAPER_SHEETS)
+then (acquirePrint -> print -> release -> PRINTER[a-1])
+else (acquireRefill -> refill -> release -> PRINTER[MAX_PAPER_SHEETS]).
+
+//Student
+STUDENT(DOCUMENT_COUNT = MIN_DOCUMENT) = STUDENT[DOCUMENT_COUNT],
+STUDENT[b: 1..DOCUMENT_COUNT] = (
+acquirePrint -> print[b] ->
+if(b > MIN_DOCUMENT)
+then  (release -> STUDENT[b - 1])
+else (release -> END)
+)+ PRINTER_ACTIONS / {print/print[d:1..DOCUMENT_COUNT]}.
+
+
+//Technician
+TECHNICIAN = (acquireRefill -> refill -> release -> TECHNICIAN |wait -> TECHNICIAN)
++ PRINTER_ACTIONS.
+
+
+||PRINTING_SYSTEM = ( s3: STUDENT(3) || s2: STUDENT(2) || t: TECHNICIAN || {s3,s2,t} :: PRINTER).
