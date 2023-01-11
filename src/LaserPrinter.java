@@ -1,16 +1,11 @@
 import Utils.Utilities;
 
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-
 public class LaserPrinter implements ServicePrinter{
     private String name;
     private int id;
     private int currentPaperLevel;
     private int currentTonerLevel;
-    private int documentPrinted;
+    private int numberOfDocumentsPrinted;
     private boolean paperRefilled = false; // to keep track of call to refill paper() is sucesssful or not
     private boolean tonerRefilled = false; // to keep track of call to refill replaced() is sucessfull or not
 
@@ -22,13 +17,13 @@ public class LaserPrinter implements ServicePrinter{
         return paperRefilled;
     }
 
-    public LaserPrinter(String name, int id, int currentPaperLevel, int currentTonerLevel, int documentPrinted) {
+    public LaserPrinter(String name, int id, int currentPaperLevel, int currentTonerLevel) {
         super();
         this.name = name;
         this.id = id;
         this.currentPaperLevel = currentPaperLevel;
         this.currentTonerLevel = currentTonerLevel;
-        this.documentPrinted = documentPrinted;
+        this.numberOfDocumentsPrinted = 0;
         this.paperRefilled = paperRefilled;
         this.tonerRefilled = tonerRefilled;
     }
@@ -115,6 +110,7 @@ public class LaserPrinter implements ServicePrinter{
             Utilities.printLogs(Utilities.MessageOwner.PRINTER, Thread.currentThread().getName() +  " is printing " + document.getDocumentName() + " with page length " + document.getNumberOfPages(), Utilities.MessageType.INFO);
             this.currentPaperLevel -= document.getNumberOfPages();
             this.currentTonerLevel -= document.getNumberOfPages();
+            numberOfDocumentsPrinted++;
             Utilities.printLogs(Utilities.MessageOwner.PRINTER, Thread.currentThread().getName() + " successfully printed the document. New Paper Level is " + currentPaperLevel + " and Toner Level is " + currentTonerLevel, Utilities.MessageType.INFO);
         }
         notifyAll();
@@ -125,11 +121,9 @@ public class LaserPrinter implements ServicePrinter{
         return "LaserPrinter{" +
                 "name='" + name + '\'' +
                 ", id=" + id +
-                ", currentPaperLevel=" + currentPaperLevel +
-                ", currentTonerLevel=" + currentTonerLevel +
-                ", documentPrinted=" + documentPrinted +
-                ", paperRefilled=" + paperRefilled +
-                ", tonerRefilled=" + tonerRefilled +
+                ", Current Paper Level =" + currentPaperLevel +
+                ", Current Toner Level =" + currentTonerLevel +
+                ", Number of documents printed=" + numberOfDocumentsPrinted +
                 '}';
     }
 }

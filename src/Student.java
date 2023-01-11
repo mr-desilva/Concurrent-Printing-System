@@ -18,7 +18,7 @@ public class Student implements Runnable{
         documentArr[0] = new Document("Doc001","6SENG006C_CWK", 10);
         documentArr[1] = new Document("Doc002","6COSC023C_CWK01_PP", 10);
         documentArr[2] = new Document("Doc003","6COSC023C_CWK02_PSPD", 15);
-        documentArr[3] = new Document("Doc004","6SENG))%C_CWK", 10);
+        documentArr[3] = new Document("Doc004","6SENG006_CWK", 10);
         documentArr[4] = new Document("Doc005","Final_Project_Draft", 15);
 
         for (Document doc : documentArr) {

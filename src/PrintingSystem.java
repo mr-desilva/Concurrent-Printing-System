@@ -13,7 +13,7 @@ public class PrintingSystem {
 
         // Initialising the printer object
         Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialising Printer Object....", Utilities.MessageType.INFO);
-        ServicePrinter printer = new LaserPrinter("canon printer", 10, 110, 15, 200);
+        ServicePrinter printer = new LaserPrinter("canon printer", 10, 110, 15);
         Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialising Printer Object finished", Utilities.MessageType.INFO);
 
         Runnable studentRunnable1 = new Student("Adeesha", studentsGroup, printer);
