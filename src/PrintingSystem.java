@@ -6,61 +6,69 @@ public class PrintingSystem {
         Utilities.clearFile();
         // Creating the thread groups
         Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Creating Thread Groups...", Utilities.MessageType.INFO);
-        ThreadGroup students = new ThreadGroup("students");
+        ThreadGroup studentsGroup = new ThreadGroup("Students");
         Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Created Student Thread Group...finished", Utilities.MessageType.INFO);
-        ThreadGroup technicians = new ThreadGroup("technicians");
+        ThreadGroup technicalGroup = new ThreadGroup("Technician");
         Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Creating Technicians Thread Group...finished", Utilities.MessageType.INFO);
 
         // Initialising the printer object
         Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialising Printer Object....", Utilities.MessageType.INFO);
-        LaserPrinter printer = new LaserPrinter(0001, 40, 10, students);
+        ServicePrinter printer = new LaserPrinter("canon printer", 10, 110, 15, 200);
         Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialising Printer Object finished", Utilities.MessageType.INFO);
 
-        // Creating student threads
-        Thread student1 = new Student(students, printer, "Tharindu");
-        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialised Student [" + student1.getName() + "]", Utilities.MessageType.INFO);
-        Thread student2 = new Student(students, printer, "Adeesha");
-        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialised Student [" + student2.getName() + "]", Utilities.MessageType.INFO);
-        Thread student3 = new Student(students, printer, "Sanjula");
-        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialised Student [" + student3.getName() + "]", Utilities.MessageType.INFO);
-        Thread student4 = new Student(students, printer, "Nathindu");
-        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialised Student [" + student4.getName() + "]", Utilities.MessageType.INFO);
+        Runnable studentRunnable1 = new Student("Adeesha", studentsGroup, printer);
+        Runnable studentRunnable2 = new Student("Malith", studentsGroup, printer);
+        Runnable studentRunnable3 = new Student("Sanjula", studentsGroup, printer);
+        Runnable studentRunnable4 = new Student("Abhilash", studentsGroup, printer);
 
+        // Creating student threads
+        Thread studentThread1 = new Thread(studentsGroup, studentRunnable1, "Adeesha");;
+        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialised Student [" + studentThread1.getName() + "]", Utilities.MessageType.INFO);
+        Thread studentThread2 = new Thread(studentsGroup, studentRunnable2, "Malith");
+        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialised Student [" + studentThread2.getName() + "]", Utilities.MessageType.INFO);
+        Thread studentThread3 = new Thread(studentsGroup, studentRunnable3, "Sanjula");
+        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialised Student [" + studentThread3.getName() + "]", Utilities.MessageType.INFO);
+        Thread studentThread4 = new Thread(studentsGroup, studentRunnable4, "Abhilash");
+        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialised Student [" + studentThread4.getName() + "]", Utilities.MessageType.INFO);
+
+
+        Runnable paperTechnician =new PaperTechnician("PaperTech", technicalGroup, printer);
+        Runnable tonerTechnician =new TonerTechnician("TornerTech", technicalGroup, printer);
         // Creating the technician threads
-        Thread paperTechnician = new PaperTechnician(technicians, printer, "paperTechnician");
+        Thread paperTechThread = new Thread(technicalGroup, paperTechnician, "Paper Tech");
         Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialised Paper Technician", Utilities.MessageType.INFO);
-        Thread tonerTechnician = new TonerTechnician(technicians, printer, "tonerTechnician");
+        Thread tonerTechThread = new Thread(technicalGroup, tonerTechnician, "Toner Tech");
         Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Initialised Toner Technician", Utilities.MessageType.INFO);
 
         // Starting threads
-        student1.start();
-        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + student1.getName() + "] Started...", Utilities.MessageType.INFO);
-        student2.start();
-        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + student2.getName() + "] Started...", Utilities.MessageType.INFO);
-        student3.start();
-        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + student3.getName() + "] Started...", Utilities.MessageType.INFO);
-        student4.start();
-        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + student4.getName() + "] Started...", Utilities.MessageType.INFO);
-        paperTechnician.start();
+        studentThread1.start();
+        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + studentThread1.getName() + "] Started...", Utilities.MessageType.INFO);
+        studentThread2.start();
+        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + studentThread2.getName() + "] Started...", Utilities.MessageType.INFO);
+        studentThread3.start();
+        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + studentThread3.getName() + "] Started...", Utilities.MessageType.INFO);
+        studentThread4.start();
+        Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + studentThread4.getName() + "] Started...", Utilities.MessageType.INFO);
+        paperTechThread.start();
         Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Paper Technician Thread Started...", Utilities.MessageType.INFO);
-        tonerTechnician.start();
+        tonerTechThread.start();
         Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Toner Technician Thread Started...", Utilities.MessageType.INFO);
 
         try {
-            student1.join();
-            Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + student1.getName() + "] Finished execution", Utilities.MessageType.INFO);
-            student2.join();
-            Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + student2.getName() + "] Finished execution", Utilities.MessageType.INFO);
-            student3.join();
-            Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + student3.getName() + "] Finished execution", Utilities.MessageType.INFO);
-            student4.join();
-            Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + student4.getName() + "] Finished execution", Utilities.MessageType.INFO);
-            paperTechnician.join();
+            studentThread1.join();
+            Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + studentThread1.getName() + "] Finished execution", Utilities.MessageType.INFO);
+            studentThread2.join();
+            Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + studentThread2.getName() + "] Finished execution", Utilities.MessageType.INFO);
+            studentThread3.join();
+            Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + studentThread3.getName() + "] Finished execution", Utilities.MessageType.INFO);
+            studentThread4.join();
+            Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Student Thread [" + studentThread4.getName() + "] Finished execution", Utilities.MessageType.INFO);
+            paperTechThread.join();
             Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Paper Technician Thread Finished execution", Utilities.MessageType.INFO);
-            tonerTechnician.join();
+            tonerTechThread.join();
             Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "Toner Technician Thread Finished execution", Utilities.MessageType.INFO);
 
-            Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "All tasks successfully completed, Total Number of pages printed : " + printer.getNumberOfPrintedPages()
+            Utilities.printLogs(Utilities.MessageOwner.PRINTING_SYSTEM, "All tasks successfully completed. "
                      + ", Final Status of printer " + printer.toString(), Utilities.MessageType.INFO);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);

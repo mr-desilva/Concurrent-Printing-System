@@ -1,36 +1,36 @@
 import Utils.Utilities;
 
-import java.util.Random;
-
-public class TonerTechnician extends Thread{
+public class TonerTechnician implements Runnable {
+    private String name;
+    private ThreadGroup group;
     private ServicePrinter printer;
 
-    public TonerTechnician(ThreadGroup group, ServicePrinter printer, String name) {
-        super(group, name);
+    public TonerTechnician(String name, ThreadGroup group, ServicePrinter printer) {
+        super();
+        this.name = name;
+        this.group = group;
         this.printer = printer;
     }
 
+
     @Override
     public void run() {
-        Random random = new Random();
-        int numberOfRefills = 3;
+        int count = 0;
+        for (int i = 0; i < 3; i++) {
+            printer.replaceTonerCartridge();
 
-        for (int i = 1; i <= numberOfRefills; i++) {
-           printer.replaceTonerCartridge();
-
-            // Toner Technician's should sleep for a random time between each attempt to refill the toner.
-            int MINIMUM_SLEEPING_TIME = 1000;
-            int MAXIMUM_SLEEPING_TIME = 5000;
-            int sleepingTime = MINIMUM_SLEEPING_TIME + random.nextInt(MAXIMUM_SLEEPING_TIME - MINIMUM_SLEEPING_TIME);
+            if(((LaserPrinter)printer).isTonerRefilled()){
+                count ++;
+            }
             try {
-                sleep(sleepingTime);
+                int num = ((int)Math.random() * 100);
+                Thread.sleep(num);
             } catch (InterruptedException e) {
-                e.printStackTrace();
-                Utilities.printLogs(Utilities.MessageOwner.TONER_TECHNICIAN, "Toner Technician was interrupted during sleeping time " + sleepingTime +
-                                ", after replacing toner cartridge no " + i, Utilities.MessageType.ERROR);
+                throw new RuntimeException(e);
             }
         }
         Utilities.printLogs(Utilities.MessageOwner.TONER_TECHNICIAN, "Toner Technician Finished, cartridges replaced "
-                + LaserPrinter.cartridgesReplacedCount, Utilities.MessageType.INFO);
+                + count, Utilities.MessageType.INFO);
     }
+
 }

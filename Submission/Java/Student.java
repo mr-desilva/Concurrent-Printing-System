@@ -1,50 +1,35 @@
 import Utils.Utilities;
 
-import java.util.Random;
-
-public class Student extends Thread{
+public class Student implements Runnable{
+    private String name;
+    private ThreadGroup group;
     private Printer printer;
 
-    public Student(ThreadGroup threadGroup, Printer printer, String name) {
-        super(threadGroup, name);
+    public Student(String name, ThreadGroup group, Printer printer) {
+        super();
+        this.name = name;
+        this.group = group;
         this.printer = printer;
     }
 
     @Override
     public void run() {
-        Random random = new Random();
-        int numberOfDocumentsPerStudent = 5;
+        Document[] documentArr = new Document[5];
+        documentArr[0] = new Document("Doc001","6SENG006C_CWK", 10);
+        documentArr[1] = new Document("Doc002","6COSC023C_CWK01_PP", 10);
+        documentArr[2] = new Document("Doc003","6COSC023C_CWK02_PSPD", 15);
+        documentArr[3] = new Document("Doc004","6SENG))%C_CWK", 10);
+        documentArr[4] = new Document("Doc005","Final_Project_Draft", 15);
 
-        for (int i = 1; i <= numberOfDocumentsPerStudent; i++) {
-
-            int MINIMUM_NUMBER_OF_PAGE_PER_DOCUMENT = 1;
-            int MAXIMUM_NUMBER_OF_PAGE_PER_DOCUMENT = 10;
-            // random number of pages per document, Adding 1 to ensure document is at least one page in length
-            int numberOfPages = MINIMUM_NUMBER_OF_PAGE_PER_DOCUMENT +
-                    random.nextInt(MAXIMUM_NUMBER_OF_PAGE_PER_DOCUMENT - MINIMUM_NUMBER_OF_PAGE_PER_DOCUMENT);
-            String documentName = "cwk" + i;
-
-
-            Document document = new Document(this.getName(), documentName, numberOfPages);
-            printer.printDocument(document);
-
-            // After printing the final document no need to sleep the student thread
-            boolean lastDocument = i == numberOfDocumentsPerStudent;
-            // Student should sleep for a random time between each attempt to print the documents.
-            if (!lastDocument) {
-                int MINIMUM_SLEEPING_TIME = 1000;
-                int MAXIMUM_SLEEPING_TIME = 5000;
-                int sleepingTime = MINIMUM_SLEEPING_TIME + random.nextInt(MAXIMUM_SLEEPING_TIME - MINIMUM_SLEEPING_TIME);
-                try {
-                    sleep(sleepingTime);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                    Utilities.printLogs(Utilities.MessageOwner.STUDENT, this.getName() + " was interrupted during sleeping time "
-                            + sleepingTime + " after printing : " + documentName, Utilities.MessageType.ERROR);
-                }
+        for (Document doc : documentArr) {
+            printer.printDocument(doc);
+            try {
+                int num = ((int)Math.random() * 100);
+                Thread.sleep(num);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
             }
         }
-
-        Utilities.printLogs(Utilities.MessageOwner.STUDENT, this.getName() + " Finished printing : " + numberOfDocumentsPerStudent, Utilities.MessageType.INFO);
+        Utilities.printLogs(Utilities.MessageOwner.STUDENT, this.name + " finished printing all documents", Utilities.MessageType.INFO);
     }
 }

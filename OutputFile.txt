@@ -1,95 +1,83 @@
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.183]  Creating Thread Groups....
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.224]  Created Student Thread Group...finished.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.225]  Creating Technicians Thread Group...finished.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.225]  Initialising Printer Object.....
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.228]  Initialising Printer Object finished.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.229]  Initialised Student [Tharindu].
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.229]  Initialised Student [Adeesha].
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.230]  Initialised Student [Sanjula].
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.231]  Initialised Student [Nathindu].
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.232]  Initialised Paper Technician.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.233]  Initialised Toner Technician.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.234]  Student Thread [Tharindu] Started....
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.234]  Student Thread [Adeesha] Started....
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.235]  Student Thread [Sanjula] Started....
-[PRINTER]  [INFO] [2023-01-11 18:46:56.236]  Tharindu is printing cwk1 with page length 1.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.237]  Student Thread [Nathindu] Started....
-[PRINTER]  [INFO] [2023-01-11 18:46:56.238]  Successfully printed the document. New Paper Level is 39 and Toner Level is 9.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.239]  Paper Technician Thread Started....
-[PAPER TECHNICIAN]  [INFO] [2023-01-11 18:46:56.240]  Checking paper... Refilling printer with paper... .
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:46:56.241]  Toner Technician Thread Started....
-[PAPER TECHNICIAN]  [INFO] [2023-01-11 18:46:56.242]  Refilled tray with pack of paper. New Paper Level: 89.
-[PRINTER]  [INFO] [2023-01-11 18:46:56.243]  Nathindu is printing cwk1 with page length 9.
-[PRINTER]  [INFO] [2023-01-11 18:46:56.244]  Successfully printed the document. New Paper Level is 80 and Toner Level is 0.
-[PRINTER]  [WARN] [2023-01-11 18:46:56.245]  Out of toner. Current Toner Level is 0.
-[PRINTER]  [WARN] [2023-01-11 18:46:56.246]  Out of toner. Current Toner Level is 0.
-[TONER TECHNICIAN]  [WARN] [2023-01-11 18:46:56.247]  toner is low, current toner level is 0.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:46:56.248]  toner is replaced, new toner level is 500.
-[PRINTER]  [INFO] [2023-01-11 18:46:56.248]  Adeesha is printing cwk1 with page length 1.
-[PRINTER]  [INFO] [2023-01-11 18:46:56.249]  Successfully printed the document. New Paper Level is 79 and Toner Level is 499.
-[PRINTER]  [INFO] [2023-01-11 18:46:56.250]  Sanjula is printing cwk1 with page length 7.
-[PRINTER]  [INFO] [2023-01-11 18:46:56.251]  Successfully printed the document. New Paper Level is 72 and Toner Level is 492.
-[PRINTER]  [INFO] [2023-01-11 18:46:57.900]  Nathindu is printing cwk2 with page length 5.
-[PRINTER]  [INFO] [2023-01-11 18:46:57.902]  Successfully printed the document. New Paper Level is 67 and Toner Level is 487.
-[PRINTER]  [INFO] [2023-01-11 18:46:58.075]  Sanjula is printing cwk2 with page length 7.
-[PRINTER]  [INFO] [2023-01-11 18:46:58.076]  Successfully printed the document. New Paper Level is 60 and Toner Level is 480.
-[PAPER TECHNICIAN]  [INFO] [2023-01-11 18:46:58.282]  Checking paper... Refilling printer with paper... .
-[PAPER TECHNICIAN]  [INFO] [2023-01-11 18:46:58.283]  Refilled tray with pack of paper. New Paper Level: 110.
-[PRINTER]  [INFO] [2023-01-11 18:46:59.312]  Adeesha is printing cwk2 with page length 3.
-[PRINTER]  [INFO] [2023-01-11 18:46:59.312]  Successfully printed the document. New Paper Level is 107 and Toner Level is 477.
-[PRINTER]  [INFO] [2023-01-11 18:46:59.757]  Tharindu is printing cwk2 with page length 2.
-[PRINTER]  [INFO] [2023-01-11 18:46:59.764]  Successfully printed the document. New Paper Level is 105 and Toner Level is 475.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:46:59.943]  Checking toner...No need to replace the toner, Current toner Level is 475.
-[PRINTER]  [INFO] [2023-01-11 18:47:00.950]  Sanjula is printing cwk3 with page length 6.
-[PRINTER]  [INFO] [2023-01-11 18:47:00.951]  Successfully printed the document. New Paper Level is 99 and Toner Level is 469.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:00.953]  Checking toner...No need to replace the toner, Current toner Level is 469.
-[PRINTER]  [INFO] [2023-01-11 18:47:01.471]  Nathindu is printing cwk3 with page length 3.
-[PRINTER]  [INFO] [2023-01-11 18:47:01.472]  Successfully printed the document. New Paper Level is 96 and Toner Level is 466.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:01.474]  Checking toner...No need to replace the toner, Current toner Level is 466.
-[PRINTER]  [INFO] [2023-01-11 18:47:01.816]  Adeesha is printing cwk3 with page length 2.
-[PRINTER]  [INFO] [2023-01-11 18:47:01.817]  Successfully printed the document. New Paper Level is 94 and Toner Level is 464.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:01.819]  Checking toner...No need to replace the toner, Current toner Level is 464.
-[PAPER TECHNICIAN]  [INFO] [2023-01-11 18:47:02.086]  Checking paper... Refilling printer with paper... .
-[PAPER TECHNICIAN]  [INFO] [2023-01-11 18:47:02.087]  Refilled tray with pack of paper. New Paper Level: 144.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:02.089]  Checking toner...No need to replace the toner, Current toner Level is 464.
-[PRINTER]  [INFO] [2023-01-11 18:47:02.343]  Tharindu is printing cwk3 with page length 6.
-[PRINTER]  [INFO] [2023-01-11 18:47:02.344]  Successfully printed the document. New Paper Level is 138 and Toner Level is 458.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:02.346]  Checking toner...No need to replace the toner, Current toner Level is 458.
-[PRINTER]  [INFO] [2023-01-11 18:47:02.749]  Nathindu is printing cwk4 with page length 1.
-[PRINTER]  [INFO] [2023-01-11 18:47:02.750]  Successfully printed the document. New Paper Level is 137 and Toner Level is 457.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:02.752]  Checking toner...No need to replace the toner, Current toner Level is 457.
-[PRINTER]  [INFO] [2023-01-11 18:47:03.866]  Sanjula is printing cwk4 with page length 5.
-[PRINTER]  [INFO] [2023-01-11 18:47:03.868]  Successfully printed the document. New Paper Level is 132 and Toner Level is 452.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:03.870]  Checking toner...No need to replace the toner, Current toner Level is 452.
-[PRINTER]  [INFO] [2023-01-11 18:47:03.951]  Tharindu is printing cwk4 with page length 4.
-[PRINTER]  [INFO] [2023-01-11 18:47:03.953]  Successfully printed the document. New Paper Level is 128 and Toner Level is 448.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:03.955]  Checking toner...No need to replace the toner, Current toner Level is 448.
-[PRINTER]  [INFO] [2023-01-11 18:47:05.443]  Tharindu is printing cwk5 with page length 4.
-[PRINTER]  [INFO] [2023-01-11 18:47:05.444]  Successfully printed the document. New Paper Level is 124 and Toner Level is 444.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:05.446]  Checking toner...No need to replace the toner, Current toner Level is 444.
-[STUDENT]  [INFO] [2023-01-11 18:47:05.447]  Tharindu Finished printing : 5.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:47:05.449]  Student Thread [Tharindu] Finished execution.
-[PAPER TECHNICIAN]  [INFO] [2023-01-11 18:47:06.085]  Paper Technician Finished, packs of paper used 3.
-[PRINTER]  [INFO] [2023-01-11 18:47:06.456]  Adeesha is printing cwk4 with page length 5.
-[PRINTER]  [INFO] [2023-01-11 18:47:06.457]  Successfully printed the document. New Paper Level is 119 and Toner Level is 439.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:06.458]  Checking toner...No need to replace the toner, Current toner Level is 439.
-[PRINTER]  [INFO] [2023-01-11 18:47:07.601]  Nathindu is printing cwk5 with page length 3.
-[PRINTER]  [INFO] [2023-01-11 18:47:07.602]  Successfully printed the document. New Paper Level is 116 and Toner Level is 436.
-[STUDENT]  [INFO] [2023-01-11 18:47:07.604]  Nathindu Finished printing : 5.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:07.605]  Checking toner...No need to replace the toner, Current toner Level is 436.
-[PRINTER]  [INFO] [2023-01-11 18:47:07.893]  Sanjula is printing cwk5 with page length 9.
-[PRINTER]  [INFO] [2023-01-11 18:47:07.894]  Successfully printed the document. New Paper Level is 107 and Toner Level is 427.
-[STUDENT]  [INFO] [2023-01-11 18:47:07.896]  Sanjula Finished printing : 5.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:07.897]  Checking toner...No need to replace the toner, Current toner Level is 427.
-[PRINTER]  [INFO] [2023-01-11 18:47:08.913]  Adeesha is printing cwk5 with page length 3.
-[PRINTER]  [INFO] [2023-01-11 18:47:08.914]  Successfully printed the document. New Paper Level is 104 and Toner Level is 424.
-[STUDENT]  [INFO] [2023-01-11 18:47:08.916]  Adeesha Finished printing : 5.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:08.917]  Checking toner...No need to replace the toner, Current toner Level is 424.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:47:08.919]  Student Thread [Adeesha] Finished execution.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:47:08.921]  Student Thread [Sanjula] Finished execution.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:47:08.922]  Student Thread [Nathindu] Finished execution.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:47:08.923]  Paper Technician Thread Finished execution.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:18.100]  Checking toner...No need to replace the toner, Current toner Level is 424.
-[TONER TECHNICIAN]  [INFO] [2023-01-11 18:47:24.291]  Toner Technician Finished, cartridges replaced 1.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:47:24.292]  Toner Technician Thread Finished execution.
-[PRINTING SYSTEM]  [INFO] [2023-01-11 18:47:24.294]  All tasks successfully completed, Total Number of pages printed : 86, Final Status of printer LaserPrinter{PrinterID: '1', Paper Level: 104, Toner Level: 424, Documents Printed: 20}.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.508]  Creating Thread Groups....
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.536]  Created Student Thread Group...finished.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.537]  Creating Technicians Thread Group...finished.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.537]  Initialising Printer Object.....
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.539]  Initialising Printer Object finished.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.540]  Initialised Student [Adeesha].
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.541]  Initialised Student [Malith].
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.542]  Initialised Student [Sanjula].
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.542]  Initialised Student [Abhilash].
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.544]  Initialised Paper Technician.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.545]  Initialised Toner Technician.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.546]  Student Thread [Adeesha] Started....
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.546]  Student Thread [Malith] Started....
+[PRINTER]  [INFO] [2023-01-11 22:17:20.547]  Malith is printing 6SENG006C_CWK with page length 10.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.548]  Student Thread [Sanjula] Started....
+[PRINTER]  [INFO] [2023-01-11 22:17:20.548]  Malith successfully printed the document. New Paper Level is 100 and Toner Level is 5.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.549]  Student Thread [Abhilash] Started....
+[PRINTER]  [WARN] [2023-01-11 22:17:20.550]  Out of paper and toner. Current Paper Level is 100 and Toner Level is 5.
+[PAPER TECHNICIAN]  [INFO] [2023-01-11 22:17:20.550]  Checking paper... Refilling printer with paper... .
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.551]  Paper Technician Thread Started....
+[PAPER TECHNICIAN]  [INFO] [2023-01-11 22:17:20.552]  Refilled tray with pack of paper. New Paper Level: 150.
+[PRINTER]  [WARN] [2023-01-11 22:17:20.552]  Out of paper and toner. Current Paper Level is 100 and Toner Level is 5.
+[PAPER TECHNICIAN]  [INFO] [2023-01-11 22:17:20.553]  Checking paper... Refilling printer with paper... .
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.553]  Toner Technician Thread Started....
+[PAPER TECHNICIAN]  [INFO] [2023-01-11 22:17:20.554]  Refilled tray with pack of paper. New Paper Level: 200.
+[PRINTER]  [WARN] [2023-01-11 22:17:20.555]  Out of paper and toner. Current Paper Level is 150 and Toner Level is 5.
+[PAPER TECHNICIAN]  [INFO] [2023-01-11 22:17:20.555]  Checking paper... Refilling printer with paper... .
+[TONER TECHNICIAN]  [WARN] [2023-01-11 22:17:20.556]  toner is low, current toner level is 5.
+[PAPER TECHNICIAN]  [INFO] [2023-01-11 22:17:20.556]  Refilled tray with pack of paper. New Paper Level: 250.
+[TONER TECHNICIAN]  [INFO] [2023-01-11 22:17:20.557]  toner is replaced, new toner level is 500.
+[PAPER TECHNICIAN]  [INFO] [2023-01-11 22:17:20.558]  Paper Technician Finished, packs of paper used 3.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.558]  Malith is printing 6COSC023C_CWK01_PP with page length 10.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.559]  Malith successfully printed the document. New Paper Level is 240 and Toner Level is 490.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.559]  Malith is printing 6COSC023C_CWK02_PSPD with page length 15.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.560]  Malith successfully printed the document. New Paper Level is 225 and Toner Level is 475.
+[TONER TECHNICIAN]  [INFO] [2023-01-11 22:17:20.560]  Checking toner...No need to replace the toner, Current toner Level is 475.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.561]  Adeesha is printing 6SENG006C_CWK with page length 10.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.561]  Adeesha successfully printed the document. New Paper Level is 215 and Toner Level is 465.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.562]  Sanjula is printing 6SENG006C_CWK with page length 10.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.562]  Sanjula successfully printed the document. New Paper Level is 205 and Toner Level is 455.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.563]  Abhilash is printing 6SENG006C_CWK with page length 10.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.563]  Abhilash successfully printed the document. New Paper Level is 195 and Toner Level is 445.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.564]  Sanjula is printing 6COSC023C_CWK01_PP with page length 10.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.564]  Sanjula successfully printed the document. New Paper Level is 185 and Toner Level is 435.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.565]  Adeesha is printing 6COSC023C_CWK01_PP with page length 10.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.565]  Adeesha successfully printed the document. New Paper Level is 175 and Toner Level is 425.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.566]  Adeesha is printing 6COSC023C_CWK02_PSPD with page length 15.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.566]  Adeesha successfully printed the document. New Paper Level is 160 and Toner Level is 410.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.567]  Malith is printing 6SENG))%C_CWK with page length 10.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.567]  Malith successfully printed the document. New Paper Level is 150 and Toner Level is 400.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.568]  Adeesha is printing 6SENG))%C_CWK with page length 10.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.569]  Adeesha successfully printed the document. New Paper Level is 140 and Toner Level is 390.
+[TONER TECHNICIAN]  [INFO] [2023-01-11 22:17:20.569]  Checking toner...No need to replace the toner, Current toner Level is 390.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.570]  Sanjula is printing 6COSC023C_CWK02_PSPD with page length 15.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.574]  Sanjula successfully printed the document. New Paper Level is 125 and Toner Level is 375.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.575]  Abhilash is printing 6COSC023C_CWK01_PP with page length 10.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.575]  Abhilash successfully printed the document. New Paper Level is 115 and Toner Level is 365.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.576]  Sanjula is printing 6SENG))%C_CWK with page length 10.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.576]  Sanjula successfully printed the document. New Paper Level is 105 and Toner Level is 355.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.576]  Sanjula is printing Final_Project_Draft with page length 15.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.577]  Sanjula successfully printed the document. New Paper Level is 90 and Toner Level is 340.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.577]  Adeesha is printing Final_Project_Draft with page length 15.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.578]  Adeesha successfully printed the document. New Paper Level is 75 and Toner Level is 325.
+[TONER TECHNICIAN]  [INFO] [2023-01-11 22:17:20.578]  Toner Technician Finished, cartridges replaced 1.
+[STUDENT]  [INFO] [2023-01-11 22:17:20.579]  Sanjula finished printing all documents.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.580]  Malith is printing Final_Project_Draft with page length 15.
+[STUDENT]  [INFO] [2023-01-11 22:17:20.581]  Adeesha finished printing all documents.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.581]  Malith successfully printed the document. New Paper Level is 60 and Toner Level is 310.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.582]  Student Thread [Adeesha] Finished execution.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.582]  Abhilash is printing 6COSC023C_CWK02_PSPD with page length 15.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.583]  Abhilash successfully printed the document. New Paper Level is 45 and Toner Level is 295.
+[STUDENT]  [INFO] [2023-01-11 22:17:20.584]  Malith finished printing all documents.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.584]  Abhilash is printing 6SENG))%C_CWK with page length 10.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.585]  Student Thread [Malith] Finished execution.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.586]  Abhilash successfully printed the document. New Paper Level is 35 and Toner Level is 285.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.586]  Student Thread [Sanjula] Finished execution.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.587]  Abhilash is printing Final_Project_Draft with page length 15.
+[PRINTER]  [INFO] [2023-01-11 22:17:20.587]  Abhilash successfully printed the document. New Paper Level is 20 and Toner Level is 270.
+[STUDENT]  [INFO] [2023-01-11 22:17:20.588]  Abhilash finished printing all documents.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.589]  Student Thread [Abhilash] Finished execution.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.589]  Paper Technician Thread Finished execution.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.590]  Toner Technician Thread Finished execution.
+[PRINTING SYSTEM]  [INFO] [2023-01-11 22:17:20.591]  All tasks successfully completed. , Final Status of printer LaserPrinter{name='canon printer', id=10, currentPaperLevel=20, currentTonerLevel=270, documentPrinted=200, paperRefilled=true, tonerRefilled=false}.
